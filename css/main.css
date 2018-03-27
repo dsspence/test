@@ -4,14 +4,15 @@ body {
 
 video {
   width: 100%;
-  height: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .flex-container {
   margin: 0 auto;
   width: 66%;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {
