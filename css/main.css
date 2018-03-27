@@ -1,0 +1,21 @@
+body {
+  background-image: url('../doge.gif');
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.flex-container {
+  margin: 0 auto;
+  width: 66%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    width: 80%
+  }
+}
