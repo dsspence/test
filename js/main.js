@@ -17,8 +17,6 @@ $(function() {
     }
   });
 
-  var backgrounds = ['doge.gif', 'disc.gif', 'drumstick.gif']
-
   window.setInterval(function() {
     window.setTimeout(function() {
       var current = $('body').css('backgroundImage');
