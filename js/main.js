@@ -3,7 +3,7 @@ $(function() {
   if(/Android|webOS|iPhone|iPad|BlackBerry|Windows Phone|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent)) {
     $('video').prop('controls', true);
   }
-
+  
   $('video').on('mouseover', function(event) {
     this.play();
     $.each($('video').not($(this)), function(i, el) {

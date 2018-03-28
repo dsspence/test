@@ -2,6 +2,12 @@ body {
   background-image: url('../doge.gif');
 }
 
+marquee {
+  color: deeppink;
+  font-size: 3em;
+  font-family: cursive;
+}
+
 video {
   width: 100%;
   margin-top: 2em;
