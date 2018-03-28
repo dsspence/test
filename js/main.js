@@ -1,4 +1,9 @@
 $(function() {
+
+  if(!Modernizr.touch) {
+    $('video').prop('controls', false);
+  }
+
   $('video').on('mouseover', function(event) {
     this.play();
     $.each($('video').not($(this)), function(i, el) {
