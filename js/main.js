@@ -1,7 +1,7 @@
 $(function() {
 
-  if(!Modernizr.touch) {
-    $('video').prop('controls', false);
+  if(/Android|webOS|iPhone|iPad|BlackBerry|Windows Phone|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent)) {
+    $('video').prop('controls', true);
   }
 
   $('video').on('mouseover', function(event) {
